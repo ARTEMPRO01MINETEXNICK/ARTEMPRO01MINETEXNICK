@@ -1,1 +1,1 @@
-![Snake animation](https://raw.githubusercontent.com/ArtemPRO01MINETEXNICK/ArtemPRO01MINETEXNICK/output/github-snake-dark.svg)
+https://raw.githubusercontent.com/ARTEMPRO01MINETEXNICK/ARTEMPRO01MINETEXNICK/main/grid.svg
