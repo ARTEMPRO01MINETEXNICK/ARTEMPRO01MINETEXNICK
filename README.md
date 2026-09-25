@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ARTEMPRO01MINETEXNICK/ARTEMPRO01MINETEXNICK/main/grid.svg" alt="ARTEMPRO01MINE" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ARTEMPRO01MINETEXNICK/ARTEMPRO01MINETEXNICK/refs/heads/main/Animation.gif" alt="ArtemPRO01MINE" width="100%"/>
 </div>
