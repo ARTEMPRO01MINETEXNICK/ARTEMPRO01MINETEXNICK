@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="180" viewBox="0 0 1040 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1420">
+        <animate attributeName="stop-color"
+                 values="#0b1420;#132033;#1a3d59;#132033;#0b1420"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1a3d59">
+        <animate attributeName="stop-color"
+                 values="#1a3d59;#0b1420;#132033;#1a3d59;#1a3d59"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2AABEE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2AABEE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1040" height="180" fill="url(#bg)" rx="16"/>
+
+  <circle cx="150" cy="90" r="100" fill="url(#glow)" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="90;120;90" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="890" cy="90" r="100" fill="url(#glow)" opacity="0.3">
+    <animate attributeName="opacity" values="0.15;0.45;0.15" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="90;130;90" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <g fill="#FFFFFF">
+    <!-- ============ A (x=40) ============ -->
+    <!-- .XXX. -->
+    <rect x="52" y="48" width="12" height="12"/><rect x="64" y="48" width="12" height="12"/><rect x="76" y="48" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="40" y="60" width="12" height="12"/><rect x="88" y="60" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="40" y="72" width="12" height="12"/><rect x="88" y="72" width="12" height="12"/>
+    <!-- XXXXX -->
+    <rect x="40" y="84" width="12" height="12"/><rect x="52" y="84" width="12" height="12"/><rect x="64" y="84" width="12" height="12"/><rect x="76" y="84" width="12" height="12"/><rect x="88" y="84" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="40" y="96" width="12" height="12"/><rect x="88" y="96" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="40" y="108" width="12" height="12"/><rect x="88" y="108" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="40" y="120" width="12" height="12"/><rect x="88" y="120" width="12" height="12"/>
+
+    <!-- ============ R (x=110) ============ -->
+    <!-- XXXX. -->
+    <rect x="110" y="48" width="12" height="12"/><rect x="122" y="48" width="12" height="12"/><rect x="134" y="48" width="12" height="12"/><rect x="146" y="48" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="110" y="60" width="12" height="12"/><rect x="158" y="60" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="110" y="72" width="12" height="12"/><rect x="158" y="72" width="12" height="12"/>
+    <!-- XXXX. -->
+    <rect x="110" y="84" width="12" height="12"/><rect x="122" y="84" width="12" height="12"/><rect x="134" y="84" width="12" height="12"/><rect x="146" y="84" width="12" height="12"/>
+    <!-- X..X. -->
+    <rect x="110" y="96" width="12" height="12"/><rect x="134" y="96" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="110" y="108" width="12" height="12"/><rect x="158" y="108" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="110" y="120" width="12" height="12"/><rect x="158" y="120" width="12" height="12"/>
+
+    <!-- ============ T (x=185) ============ -->
+    <!-- XXXXX -->
+    <rect x="185" y="48" width="12" height="12"/><rect x="197" y="48" width="12" height="12"/><rect x="209" y="48" width="12" height="12"/><rect x="221" y="48" width="12" height="12"/><rect x="233" y="48" width="12" height="12"/>
+    <!-- ..X.. -->
+    <rect x="209" y="60" width="12" height="12"/>
+    <rect x="209" y="72" width="12" height="12"/>
+    <rect x="209" y="84" width="12" height="12"/>
+    <rect x="209" y="96" width="12" height="12"/>
+    <rect x="209" y="108" width="12" height="12"/>
+    <rect x="209" y="120" width="12" height="12"/>
+
+    <!-- ============ E (x=255) ============ -->
+    <!-- XXXXX -->
+    <rect x="255" y="48" width="12" height="12"/><rect x="267" y="48" width="12" height="12"/><rect x="279" y="48" width="12" height="12"/><rect x="291" y="48" width="12" height="12"/><rect x="303" y="48" width="12" height="12"/>
+    <!-- X.... -->
+    <rect x="255" y="60" width="12" height="12"/>
+    <rect x="255" y="72" width="12" height="12"/>
+    <!-- XXXX. -->
+    <rect x="255" y="84" width="12" height="12"/><rect x="267" y="84" width="12" height="12"/><rect x="279" y="84" width="12" height="12"/><rect x="291" y="84" width="12" height="12"/>
+    <!-- X.... -->
+    <rect x="255" y="96" width="12" height="12"/>
+    <rect x="255" y="108" width="12" height="12"/>
+    <!-- XXXXX -->
+    <rect x="255" y="120" width="12" height="12"/><rect x="267" y="120" width="12" height="12"/><rect x="279" y="120" width="12" height="12"/><rect x="291" y="120" width="12" height="12"/><rect x="303" y="120" width="12" height="12"/>
+
+    <!-- ============ M (x=325) ============ -->
+    <!-- X...X -->
+    <rect x="325" y="48" width="12" height="12"/><rect x="373" y="48" width="12" height="12"/>
+    <!-- XX.XX -->
+    <rect x="325" y="60" width="12" height="12"/><rect x="337" y="60" width="12" height="12"/><rect x="361" y="60" width="12" height="12"/><rect x="373" y="60" width="12" height="12"/>
+    <!-- X.X.X -->
+    <rect x="325" y="72" width="12" height="12"/><rect x="349" y="72" width="12" height="12"/><rect x="373" y="72" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="325" y="84" width="12" height="12"/><rect x="373" y="84" width="12" height="12"/>
+    <rect x="325" y="96" width="12" height="12"/><rect x="373" y="96" width="12" height="12"/>
+    <rect x="325" y="108" width="12" height="12"/><rect x="373" y="108" width="12" height="12"/>
+    <rect x="325" y="120" width="12" height="12"/><rect x="373" y="120" width="12" height="12"/>
+
+    <!-- ============ P (x=400) ============ -->
+    <!-- XXXX. -->
+    <rect x="400" y="48" width="12" height="12"/><rect x="412" y="48" width="12" height="12"/><rect x="424" y="48" width="12" height="12"/><rect x="436" y="48" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="400" y="60" width="12" height="12"/><rect x="448" y="60" width="12" height="12"/>
+    <rect x="400" y="72" width="12" height="12"/><rect x="448" y="72" width="12" height="12"/>
+    <!-- XXXX. -->
+    <rect x="400" y="84" width="12" height="12"/><rect x="412" y="84" width="12" height="12"/><rect x="424" y="84" width="12" height="12"/><rect x="436" y="84" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="400" y="96" width="12" height="12"/><rect x="448" y="96" width="12" height="12"/>
+    <rect x="400" y="108" width="12" height="12"/><rect x="448" y="108" width="12" height="12"/>
+    <rect x="400" y="120" width="12" height="12"/><rect x="448" y="120" width="12" height="12"/>
+
+    <!-- ============ R (x=475) ============ -->
+    <!-- XXXX. -->
+    <rect x="475" y="48" width="12" height="12"/><rect x="487" y="48" width="12" height="12"/><rect x="499" y="48" width="12" height="12"/><rect x="511" y="48" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="475" y="60" width="12" height="12"/><rect x="523" y="60" width="12" height="12"/>
+    <rect x="475" y="72" width="12" height="12"/><rect x="523" y="72" width="12" height="12"/>
+    <!-- XXXX. -->
+    <rect x="475" y="84" width="12" height="12"/><rect x="487" y="84" width="12" height="12"/><rect x="499" y="84" width="12" height="12"/><rect x="511" y="84" width="12" height="12"/>
+    <!-- X..X. -->
+    <rect x="475" y="96" width="12" height="12"/><rect x="499" y="96" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="475" y="108" width="12" height="12"/><rect x="523" y="108" width="12" height="12"/>
+    <rect x="475" y="120" width="12" height="12"/><rect x="523" y="120" width="12" height="12"/>
+
+    <!-- ============ O (x=550) ============ -->
+    <!-- .XXX. -->
+    <rect x="562" y="48" width="12" height="12"/><rect x="574" y="48" width="12" height="12"/><rect x="586" y="48" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="550" y="60" width="12" height="12"/><rect x="598" y="60" width="12" height="12"/>
+    <rect x="550" y="72" width="12" height="12"/><rect x="598" y="72" width="12" height="12"/>
+    <rect x="550" y="84" width="12" height="12"/><rect x="598" y="84" width="12" height="12"/>
+    <rect x="550" y="96" width="12" height="12"/><rect x="598" y="96" width="12" height="12"/>
+    <rect x="550" y="108" width="12" height="12"/><rect x="598" y="108" width="12" height="12"/>
+    <!-- .XXX. -->
+    <rect x="562" y="120" width="12" height="12"/><rect x="574" y="120" width="12" height="12"/><rect x="586" y="120" width="12" height="12"/>
+
+    <!-- ============ 0 (x=625) ============ -->
+    <!-- .XXX. -->
+    <rect x="637" y="48" width="12" height="12"/><rect x="649" y="48" width="12" height="12"/><rect x="661" y="48" width="12" height="12"/>
+    <!-- X..XX -->
+    <rect x="625" y="60" width="12" height="12"/><rect x="661" y="60" width="12" height="12"/><rect x="673" y="60" width="12" height="12"/>
+    <!-- X.X.X -->
+    <rect x="625" y="72" width="12" height="12"/><rect x="649" y="72" width="12" height="12"/><rect x="673" y="72" width="12" height="12"/>
+    <!-- XX..X -->
+    <rect x="625" y="84" width="12" height="12"/><rect x="637" y="84" width="12" height="12"/><rect x="673" y="84" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="625" y="96" width="12" height="12"/><rect x="673" y="96" width="12" height="12"/>
+    <rect x="625" y="108" width="12" height="12"/><rect x="673" y="108" width="12" height="12"/>
+    <!-- .XXX. -->
+    <rect x="637" y="120" width="12" height="12"/><rect x="649" y="120" width="12" height="12"/><rect x="661" y="120" width="12" height="12"/>
+
+    <!-- ============ 1 (x=700) ============ -->
+    <!-- ..X.. -->
+    <rect x="724" y="48" width="12" height="12"/>
+    <!-- .XX.. -->
+    <rect x="712" y="60" width="12" height="12"/><rect x="724" y="60" width="12" height="12"/>
+    <!-- ..X.. -->
+    <rect x="724" y="72" width="12" height="12"/>
+    <rect x="724" y="84" width="12" height="12"/>
+    <rect x="724" y="96" width="12" height="12"/>
+    <rect x="724" y="108" width="12" height="12"/>
+    <!-- .XXX. -->
+    <rect x="712" y="120" width="12" height="12"/><rect x="724" y="120" width="12" height="12"/><rect x="736" y="120" width="12" height="12"/>
+
+    <!-- ============ M (x=760) ============ -->
+    <!-- X...X -->
+    <rect x="760" y="48" width="12" height="12"/><rect x="808" y="48" width="12" height="12"/>
+    <!-- XX.XX -->
+    <rect x="760" y="60" width="12" height="12"/><rect x="772" y="60" width="12" height="12"/><rect x="796" y="60" width="12" height="12"/><rect x="808" y="60" width="12" height="12"/>
+    <!-- X.X.X -->
+    <rect x="760" y="72" width="12" height="12"/><rect x="784" y="72" width="12" height="12"/><rect x="808" y="72" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="760" y="84" width="12" height="12"/><rect x="808" y="84" width="12" height="12"/>
+    <rect x="760" y="96" width="12" height="12"/><rect x="808" y="96" width="12" height="12"/>
+    <rect x="760" y="108" width="12" height="12"/><rect x="808" y="108" width="12" height="12"/>
+    <rect x="760" y="120" width="12" height="12"/><rect x="808" y="120" width="12" height="12"/>
+
+    <!-- ============ I (x=835) ============ -->
+    <!-- XXXXX -->
+    <rect x="835" y="48" width="12" height="12"/><rect x="847" y="48" width="12" height="12"/><rect x="859" y="48" width="12" height="12"/><rect x="871" y="48" width="12" height="12"/><rect x="883" y="48" width="12" height="12"/>
+    <!-- ..X.. -->
+    <rect x="859" y="60" width="12" height="12"/>
+    <rect x="859" y="72" width="12" height="12"/>
+    <rect x="859" y="84" width="12" height="12"/>
+    <rect x="859" y="96" width="12" height="12"/>
+    <rect x="859" y="108" width="12" height="12"/>
+    <!-- XXXXX -->
+    <rect x="835" y="120" width="12" height="12"/><rect x="847" y="120" width="12" height="12"/><rect x="859" y="120" width="12" height="12"/><rect x="871" y="120" width="12" height="12"/><rect x="883" y="120" width="12" height="12"/>
+
+    <!-- ============ N (x=905) ============ -->
+    <!-- X...X -->
+    <rect x="905" y="48" width="12" height="12"/><rect x="953" y="48" width="12" height="12"/>
+    <!-- XX..X -->
+    <rect x="905" y="60" width="12" height="12"/><rect x="917" y="60" width="12" height="12"/><rect x="953" y="60" width="12" height="12"/>
+    <!-- X.X.X -->
+    <rect x="905" y="72" width="12" height="12"/><rect x="929" y="72" width="12" height="12"/><rect x="953" y="72" width="12" height="12"/>
+    <!-- X..XX -->
+    <rect x="905" y="84" width="12" height="12"/><rect x="941" y="84" width="12" height="12"/><rect x="953" y="84" width="12" height="12"/>
+    <!-- X...X -->
+    <rect x="905" y="96" width="12" height="12"/><rect x="953" y="96" width="12" height="12"/>
+    <rect x="905" y="108" width="12" height="12"/><rect x="953" y="108" width="12" height="12"/>
+    <rect x="905" y="120" width="12" height="12"/><rect x="953" y="120" width="12" height="12"/>
+
+    <!-- ============ E (x=980) ============ -->
+    <!-- XXXXX -->
+    <rect x="980" y="48" width="12" height="12"/><rect x="992" y="48" width="12" height="12"/><rect x="1004" y="48" width="12" height="12"/><rect x="1016" y="48" width="12" height="12"/><rect x="1028" y="48" width="12" height="12"/>
+    <!-- X.... -->
+    <rect x="980" y="60" width="12" height="12"/>
+    <rect x="980" y="72" width="12" height="12"/>
+    <!-- XXXX. -->
+    <rect x="980" y="84" width="12" height="12"/><rect x="992" y="84" width="12" height="12"/><rect x="1004" y="84" width="12" height="12"/><rect x="1016" y="84" width="12" height="12"/>
+    <!-- X.... -->
+    <rect x="980" y="96" width="12" height="12"/>
+    <rect x="980" y="108" width="12" height="12"/>
+    <!-- XXXXX -->
+    <rect x="980" y="120" width="12" height="12"/><rect x="992" y="120" width="12" height="12"/><rect x="1004" y="120" width="12" height="12"/><rect x="1016" y="120" width="12" height="12"/><rect x="1028" y="120" width="12" height="12"/>
+  </g>
+
+  <line x1="0" y1="175" x2="1040" y2="175" stroke="#2AABEE" stroke-width="2" opacity="0.5">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/>
+  </line>
+</svg>
